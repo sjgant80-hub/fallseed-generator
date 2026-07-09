@@ -1,0 +1,13 @@
+{
+  "name": "@ai-native-solutions/fallseed-generator",
+  "version": "1.0.0",
+  "description": "Ring 0 (ground) flagship · meta-generator for fallseed-<vertical> tools · scaffolds root + companion trios in one command",
+  "type": "module",
+  "main": "scripts/create.mjs",
+  "bin": {"fallseed-generator": "scripts/create.mjs"},
+  "files": ["scripts", "templates", "README.md", "LICENSE"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {"type": "git", "url": "https://github.com/sjgant80-hub/fallseed-generator.git"},
+  "publishConfig": {"access": "public"}
+}
